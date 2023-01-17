@@ -1,0 +1,19 @@
+class EnvBase(object):
+    def __init__(self, *args, **kwargs):
+        ...
+        
+    def activate(self, *args, **kwargs):
+        ...
+        
+    def save_checkpoint(self, *args, **kwargs):
+        ...    
+        
+    def freeze(self, *args, **kwargs):
+        ...
+             
+    def play(self, steps=1000, *args, **kwargs):
+        ...
+        
+        
+    def _judge(self, *args, **kwargs):
+        ...
